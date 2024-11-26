@@ -1,0 +1,11 @@
+{
+  "debug": true,
+  "logLevel": "verbose",
+  "outputDirectory": "logs",
+  "enableConsoleLogging": true,
+  "enableFileLogging": true,
+  "maxLogFileSize": 10485760,
+  "logFileRetentionDays": 7,
+  "databaseDebugMode": true,
+  "apiEndpoint": "https://api.yourapp.dev"
+}
