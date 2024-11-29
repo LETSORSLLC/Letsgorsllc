@@ -1,4 +1,3 @@
 dependencies {
-    // Add this line
     implementation 'com.google.firebase:firebase-analytics'
 }

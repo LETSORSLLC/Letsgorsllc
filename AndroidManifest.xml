@@ -1,26 +1,22 @@
-name: Ruby on Rails CI
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapp">
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
 
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.0'  # Specify the Ruby version here
-          bundler-cache: true
-
-      - name: Install dependencies
-        run: bundle install
-
-      - name: Run tests
-        run: bundle exec rake
+</manifest>

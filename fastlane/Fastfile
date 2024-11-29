@@ -1,0 +1,9 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Deploy a new version to the App Store"
+  lane :release do
+    build_app
+    upload_to_app_store
+  end
+end
