@@ -1,9 +1,20 @@
-platform :ios, '10.0'
+platform :ios, '11.0'
 use_frameworks!
 
-project 'Letsgorsllc.xcodeproj'
+project 'Documents/Letsgorsllc/Let's Go/Let's Go.xcodeproj'
 
-target 'YourAppTarget' do
+target 'Letsgorsllc' do
+  # Pods for Letsgorsllc
   pod 'Alamofire', '~> 5.4'
-  pod 'Testing', '~> 1.0' # Add this line
+  pod 'Testing', '~> 1.0'
+
+  target 'LetsgorsllcTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'LetsgorsllcUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
 end
