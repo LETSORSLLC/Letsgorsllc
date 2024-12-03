@@ -1,9 +1,3 @@
-# This workflow uses actions that are not certified by GitHub.  They are
-# provided by a third-party and are governed by separate terms of service,
-# privacy policy, and support documentation.
-#
-# This workflow will install a prebuilt Ruby version, install dependencies, and
-# run tests and linters.
 name: "Ruby on Rails CI"
 on:
   push:
@@ -33,6 +27,8 @@ jobs:
         uses: ruby/setup-ruby@78c01b705fd9d5ad960d432d3a0cfa341d50e410 # v1.179.1
         with:
           bundler-cache: true
+      - name: Install OpenCV
+        run: sudo apt-get install -y libopencv-dev
       # Add or replace database setup steps here
       - name: Set up database schema
         run: bin/rails db:schema:load
