@@ -1,0 +1,9 @@
+platform :ios, '10.0'
+use_frameworks!
+
+project 'YourProject.xcodeproj'  # Add this line with the correct path to your .xcodeproj file
+
+target 'YourAppTarget' do
+  pod 'Alamofire', '~> 5.4'
+  # Add other pods here
+end
