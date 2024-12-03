@@ -1,0 +1,23 @@
+{
+  "name": "letsgorsllc",
+  "version": "1.0.0",
+  "description": "LET'S GO RIDESHARE L.L.C. - Rideshare Solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LETSORSLLC/Letsgorsllc.git"
+  },
+  "keywords": [
+    "rideshare",
+    "letsgo",
+    "transportation"
+  ],
+  "author": "LET'S GO RIDESHARE L.L.C.",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
