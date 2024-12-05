@@ -18,6 +18,21 @@ class MileageCalculation
       puts "An error occurred: #{e.message}"
       nil
     end
+<<<<<<< HEAD
+  end
+
+  private
+
+  def calculate_distance(start_location, end_location)
+    # Replace with actual mileage calculation logic
+    rand(5..20)
+  end
+
+  def log_calculation(distance)
+    # Replace with actual logging mechanism
+    puts "Calculated distance: #{distance} miles"
+=======
+>>>>>>> dcec60243a72c872ff7034ba328f5c79d6911e91
   end
 
   private
