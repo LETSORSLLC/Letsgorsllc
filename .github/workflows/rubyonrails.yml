@@ -10,14 +10,14 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Set up Ruby
-      uses: actions/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
         ruby-version: 3.3.2
 
     - name: Install dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install libopencv-dev
+        sudo apt-get install libopencv-dev libopencv-contrib-dev
         gem install bundler
         bundle install
 
