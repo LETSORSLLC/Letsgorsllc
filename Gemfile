@@ -11,5 +11,5 @@ gem 'ruby-opencv', '~> 0.0.18'
 gem 'whenever', require: false
 
 group :development, :test do
-  gem 'rspec-rails', '~> 5.0'
+  gem 'rspec-rails', '~> 6.1'
 end
