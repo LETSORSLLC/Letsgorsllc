@@ -7,7 +7,7 @@ android {
     compileSdk = 33
     defaultConfig {
         applicationId = "com.example.myapp"
-        minSdk = 21 // Consider updating to a more recent version
+        minSdk = 21
         targetSdkVersion = 33
         versionCode = 1
         versionName = "1.0"
