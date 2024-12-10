@@ -1,7 +1,7 @@
 plugins {
-    id("com.android.application") version "7.3.1"
+    id("com.android.application") version "8.1.0"
     id("org.jetbrains.kotlin.android") version "1.7.20"
-    id("com.android.dynamic-feature") // Add dynamic-feature plugin
+    id("com.android.dynamic-feature")
 }
 
 android {
