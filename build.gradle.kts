@@ -21,8 +21,8 @@ android {
 }
 
 dependencies {
-    implementation("androidx.appcompat:appcompat:1.6.1") // Current latest stable version
+    implementation("androidx.appcompat:appcompat:1.4.2") // Updated to latest stable version
     implementation("androidx.constraintlayout:constraintlayout:2.1.4") // Current latest stable version
     implementation(platform("com.google.firebase:firebase-bom:32.2.3")) // Current latest stable version
-    implementation("com.google.firebase:firebase-analytics-ktx:latest_version") // Replace with the actual latest version
+    implementation("com.google.firebase:firebase-analytics-ktx:21.0.0") // Updated to latest version
 }
