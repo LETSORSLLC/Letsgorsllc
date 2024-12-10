@@ -1,5 +1,5 @@
 plugins {
-    id("com.android.application") version "8.1.0"
+    id("com.android.application") version "7.3.1"
     id("org.jetbrains.kotlin.android") version "1.7.20"
 }
 
@@ -7,7 +7,7 @@ android {
     compileSdk = 33
     defaultConfig {
         applicationId = "com.example.myapp"
-        minSdk = 21 // Consider updating to a more recent version
+        minSdk = 21
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
@@ -21,8 +21,8 @@ android {
 }
 
 dependencies {
-    implementation("androidx.appcompat:appcompat:1.4.2") // Updated to latest stable version
-    implementation("androidx.constraintlayout:constraintlayout:2.1.4") // Current latest stable version
-    implementation(platform("com.google.firebase:firebase-bom:32.2.3")) // Current latest stable version
-    implementation("com.google.firebase:firebase-analytics-ktx:21.0.0") // Updated to latest version
+    implementation("androidx.appcompat:appcompat:1.4.2")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation(platform("com.google.firebase:firebase-bom:32.2.3"))
+    implementation("com.google.firebase:firebase-analytics-ktx:21.0.0")
 }
