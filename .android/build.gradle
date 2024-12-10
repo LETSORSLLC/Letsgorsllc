@@ -7,7 +7,7 @@ android {
     compileSdk = 34
     defaultConfig {
         applicationId = "com.example.myapp"
-        minSdk = 21 // Consider updating to a more recent version
+        minSdk = 24 // Updated to a more recent version
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -21,8 +21,8 @@ android {
 }
 
 dependencies {
-    implementation("androidx.appcompat:appcompat:1.6.1") // Updated to AndroidX
-    implementation("androidx.constraintlayout:constraintlayout:2.1.4") // Updated to AndroidX
+    implementation("androidx.appcompat:appcompat:1.7.0-alpha02")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation(platform("com.google.firebase:firebase-bom:32.2.3"))
     implementation("com.google.firebase:firebase-analytics-ktx")
 }
