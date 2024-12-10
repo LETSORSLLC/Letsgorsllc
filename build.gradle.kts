@@ -1,14 +1,13 @@
 plugins {
     id("com.android.application") version "8.1.0"
     id("org.jetbrains.kotlin.android") version "1.7.20"
-    id("com.android.dynamic-feature")
 }
 
 android {
     compileSdk = 33
     defaultConfig {
         applicationId = "com.example.myapp"
-        minSdk = 21
+        minSdk = 21 // Consider updating to a more recent version
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
@@ -22,8 +21,8 @@ android {
 }
 
 dependencies {
-    implementation("androidx.appcompat:appcompat:1.4.2")
-    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("androidx.appcompat:appcompat:1.6.1") // Updated to AndroidX
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4") // Updated to AndroidX
     implementation(platform("com.google.firebase:firebase-bom:32.2.3"))
-    implementation("com.google.firebase:firebase-analytics-ktx:21.0.0")
+    implementation("com.google.firebase:firebase-analytics-ktx")
 }
