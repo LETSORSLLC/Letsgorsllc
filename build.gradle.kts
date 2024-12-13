@@ -1,17 +1,18 @@
 plugins {
     id("com.android.application") version "8.1.0"
-    id("org.jetbrains.kotlin.android") version "1.7.20"
 }
 
 android {
-    compileSdk = 33
+    compileSdk = 30
+
     defaultConfig {
         applicationId = "com.example.myapp"
         minSdk = 21
-        targetSdkVersion = 33
+        targetSdk = 30
         versionCode = 1
         versionName = "1.0"
     }
+
     buildTypes {
         release {
             isMinifyEnabled = false
@@ -21,8 +22,9 @@ android {
 }
 
 dependencies {
-    implementation("androidx.appcompat:appcompat:1.6.1") // Updated to AndroidX
-    implementation("androidx.constraintlayout:constraintlayout:2.1.4") // Updated to AndroidX
-    implementation(platform("com.google.firebase:firebase-bom:32.2.3"))
-    implementation("com.google.firebase:firebase-analytics-ktx")
+    implementation("com.android.support:appcompat-v7:28.0.0")
+    implementation("com.android.support.constraint:constraint-layout:1.1.3")
+    testImplementation("junit:junit:4.12")
+    androidTestImplementation("com.android.support.test:runner:1.0.2")
+    androidTestImplementation("com.android.support.test.espresso:espresso-core:3.0.2")
 }
