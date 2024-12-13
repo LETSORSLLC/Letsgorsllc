@@ -1,0 +1,15 @@
+{
+  "" : {
+    "dependencies" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Index.noindex/Build/Intermediates.noindex/Let's Go.build/Debug-xros/Let's GoUITests.build/Objects-normal/arm64/Let's GoUITests-master.d",
+    "diagnostics" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Index.noindex/Build/Intermediates.noindex/Let's Go.build/Debug-xros/Let's GoUITests.build/Objects-normal/arm64/Let's GoUITests-master.dia",
+    "emit-module-dependencies" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Index.noindex/Build/Intermediates.noindex/Let's Go.build/Debug-xros/Let's GoUITests.build/Objects-normal/arm64/Let's GoUITests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Index.noindex/Build/Intermediates.noindex/Let's Go.build/Debug-xros/Let's GoUITests.build/Objects-normal/arm64/Let's GoUITests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Index.noindex/Build/Intermediates.noindex/Let's Go.build/Debug-xros/Let's GoUITests.build/Objects-normal/arm64/Let's GoUITests-master.swiftdeps"
+  },
+  "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/Let's GoUITests/Let_s_GoUITests.swift" : {
+
+  },
+  "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/Let's GoUITests/Let_s_GoUITestsLaunchTests.swift" : {
+
+  }
+}
