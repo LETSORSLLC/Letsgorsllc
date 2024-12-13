@@ -25,3 +25,12 @@ jobs:
 
       - name: Run Tests
         run: ./gradlew test
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v2
+        with:
+          api-level: 30
+          build-tools: 30.0.3
+
+      - name: Build and Test
+        run: ./gradlew assembleDebug check
