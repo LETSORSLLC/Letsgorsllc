@@ -9,6 +9,7 @@ gem 'base64'
 gem 'bigdecimal'
 gem 'ruby-opencv', '~> 0.0.18'
 gem 'whenever', require: false
+gem 'opencv'
 
 group :development, :test do
   gem 'rspec-rails', '~> 6.1'
