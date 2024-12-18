@@ -24,7 +24,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.myapp"
-        minSdk = 21
+        minSdk = 24 // Updated to a more recent version
         targetSdk = 30
         versionCode = 1
         versionName = "1.0"
@@ -39,9 +39,9 @@ android {
 }
 
 dependencies {
-    implementation("com.android.support:appcompat-v7:28.0.0")
-    implementation("com.android.support.constraint:constraint-layout:1.1.3")
+    implementation("androidx.appcompat:appcompat:1.6.1") // Updated to AndroidX
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4") // Updated to AndroidX
     testImplementation("junit:junit:4.12")
-    androidTestImplementation("com.android.support.test:runner:1.0.2")
-    androidTestImplementation("com.android.support.test.espresso:espresso-core:3.0.2")
+    androidTestImplementation("androidx.test:runner:1.4.0") // Updated to AndroidX
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.4.0") // Updated to AndroidX
 }
