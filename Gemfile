@@ -13,3 +13,6 @@ gem 'whenever', require: false
 group :development, :test do
   gem 'rspec-rails', '~> 5.0'
 end
+
+gem 'httparty'
+gem 'dotenv'

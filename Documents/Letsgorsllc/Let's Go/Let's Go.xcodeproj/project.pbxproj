@@ -1,4 +1,3 @@
-// !$*UTF8*$!
 {
 	archiveVersion = 1;
 	classes = {
@@ -36,6 +35,24 @@
 		CC7761132CFA870E00ACA862 /* Let's GoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Let's GoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CC6163FA2CFAC3AE0038F9AE /* Exceptions for "Let's GoTests" folder in "Let's Go" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Let_s_GoTests.swift,
+			);
+			target = CC7760F42CFA870E00ACA862 /* Let's Go */;
+		};
+		CC6163FC2CFAC3B50038F9AE /* Exceptions for "Let's GoUITests" folder in "Let's Go" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Let_s_GoUITests.swift,
+				Let_s_GoUITestsLaunchTests.swift,
+			);
+			target = CC7760F42CFA870E00ACA862 /* Let's Go */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		CC7760F72CFA870E00ACA862 /* Let's Go */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -44,11 +61,17 @@
 		};
 		CC77610C2CFA870E00ACA862 /* Let's GoTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CC6163FA2CFAC3AE0038F9AE /* Exceptions for "Let's GoTests" folder in "Let's Go" target */,
+			);
 			path = "Let's GoTests";
 			sourceTree = "<group>";
 		};
 		CC7761162CFA870E00ACA862 /* Let's GoUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CC6163FC2CFAC3B50038F9AE /* Exceptions for "Let's GoUITests" folder in "Let's Go" target */,
+			);
 			path = "Let's GoUITests";
 			sourceTree = "<group>";
 		};
