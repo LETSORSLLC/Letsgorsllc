@@ -1,10 +1,3 @@
-//
-//  Let_s_GoUITestsLaunchTests.swift
-//  Let's GoUITests
-//
-//  Created by Don Badsha on 11/29/24.
-//
-
 import XCTest
 
 final class Let_s_GoUITestsLaunchTests: XCTestCase {

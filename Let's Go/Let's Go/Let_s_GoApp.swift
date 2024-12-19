@@ -1,10 +1,3 @@
-//
-//  Let_s_GoApp.swift
-//  Let's Go
-//
-//  Created by Don Badsha on 11/29/24.
-//
-
 import SwiftUI
 import SwiftData
 
