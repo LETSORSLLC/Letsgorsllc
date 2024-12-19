@@ -1,7 +1,22 @@
-platform :ios, '10.0'
+platform :ios, '11.0'
 use_frameworks!
 
-target 'YourAppTarget' do
+project 'src/ios/Let's Go.xcodeproj'
+
+target 'Letsgorsllc' do
+  # Pods for Letsgorsllc
   pod 'Alamofire', '~> 5.4'
-  # Add other pods here
+  pod 'Testing', '~> 1.0'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Messaging'
+
+  target 'LetsgorsllcTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'LetsgorsllcUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
 end
