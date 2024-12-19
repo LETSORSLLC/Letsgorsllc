@@ -20,12 +20,12 @@ allprojects {
 }
 
 android {
-    compileSdk = 30
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.myapp"
-        minSdk = 24 // Updated to a more recent version
-        targetSdk = 30
+        minSdk = 24
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
     }
