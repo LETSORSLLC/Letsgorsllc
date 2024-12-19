@@ -1,4 +1,4 @@
-package com.letsgors.appname;
+package com.letsgors.appname.android;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;

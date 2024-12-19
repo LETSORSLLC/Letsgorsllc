@@ -1,10 +1,3 @@
-//
-//  Let_s_GoTests.swift
-//  Let's GoTests
-//
-//  Created by Don Badsha on 11/29/24.
-//
-
 import Testing
 
 struct Let_s_GoTests {

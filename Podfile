@@ -1,7 +1,7 @@
 platform :ios, '11.0'
 use_frameworks!
 
-project 'Documents/Letsgorsllc/Let's Go/Let's Go.xcodeproj'
+project 'src/ios/Let's Go.xcodeproj'
 
 target 'Letsgorsllc' do
   # Pods for Letsgorsllc

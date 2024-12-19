@@ -20,6 +20,15 @@ Inclusivity is another critical aspect of Let’s Go Rideshare's business model.
 ## Summary
 In summary, Let’s Go Rideshare LLC offers a reimagined approach to ride sharing, solving key industry issues like safety, ride quality, and pricing fairness. The company uses innovative technology to provide a better experience for both drivers and passengers.
 
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Features](#features)
+- [FAQ](#faq)
+
 ## Installation
 Provide steps to set up the project locally, including dependencies and configurations.
 
@@ -30,4 +39,24 @@ Instructions on how to use the project, run tests, and any commands specific to 
 Guidelines for contributing to the project, including code of conduct and pull request process.
 
 ## License
-Information about the project’s license.
+This project is licensed under the MIT License - see the [LICENSE](docs/LICENSE) file for details.
+
+## Contact
+For any questions or support, please contact us at [support@letsgorideshare.com](mailto:support@letsgorideshare.com).
+
+## Features
+- Dual-stage identity verification system
+- Real-time trip monitoring
+- Thorough vehicle inspections
+- Transparent pricing model
+- Inclusivity for a wide range of passengers
+
+## FAQ
+**Q: How does the dual-stage identity verification system work?**  
+A: The system requires multiple layers of verification for both drivers and passengers to enhance safety.
+
+**Q: How is the pricing model different from other rideshare platforms?**  
+A: Let’s Go Rideshare offers fair and consistent pricing without surge pricing during peak hours or periods of high demand.
+
+**Q: What measures are taken to ensure service quality?**  
+A: The platform uses real-time trip monitoring and conducts thorough vehicle inspections to maintain high standards.
