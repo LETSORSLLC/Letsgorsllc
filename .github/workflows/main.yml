@@ -30,3 +30,6 @@ jobs:
       run: |
         echo '{"key": "value"}' > test.json
         ruby -rjson -e 'puts JSON.parse(File.read("test.json"))'
+
+    - name: Set Environment URL
+      run: echo "ENV_URL=https://letsgors.com/" >> $GITHUB_ENV
