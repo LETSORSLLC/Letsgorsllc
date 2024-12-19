@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>11</integer>
+	<key>logs</key>
+	<dict>
+		<key>2FD4DB90-AEB4-4140-9110-C9A0D86E3311</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2FD4DB90-AEB4-4140-9110-C9A0D86E3311.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Let's Go project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Let's GoUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build Let's GoUITests</string>
+			<key>timeStartedRecording</key>
+			<real>754679117.38015604</real>
+			<key>timeStoppedRecording</key>
+			<real>754679121.54968703</real>
+			<key>title</key>
+			<string>Build Let's GoUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>2FD4DB90-AEB4-4140-9110-C9A0D86E3311</string>
+		</dict>
+		<key>AD0A1F60-A980-4D89-B7C2-280FF8840962</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AD0A1F60-A980-4D89-B7C2-280FF8840962.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Let's Go project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Let's GoUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Clean Let's GoUITests</string>
+			<key>timeStartedRecording</key>
+			<real>754679107.49013197</real>
+			<key>timeStoppedRecording</key>
+			<real>754679109.91389</real>
+			<key>title</key>
+			<string>Clean Let's GoUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>AD0A1F60-A980-4D89-B7C2-280FF8840962</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

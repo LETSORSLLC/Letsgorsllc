@@ -1,3 +1,59 @@
 Desktop/README file.webloc
 .gradle/
 node_modules/
+android/app/google-services.json
+.android/app/google-services.json
+.android/google-services (1) (1).json
+.android/app/google-services 3.json
+.ios/google-services (2) (1).json
+.ios/Runner/google-services 2.json
+.ios/Runner/google-services.json
+
+# Exclude unnecessary files and directories
+DerivedData/
+ModuleCache.noindex/
+build/
+*.xcworkspace
+xcuserdata/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.xcscheme
+*.xcodeproj/project.xcworkspace/xcshareddata/xcschemes/xcscheme.xcscheme.xcscheme.xcscheme.xcscheme.x

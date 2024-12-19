@@ -1,0 +1,62 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "6694061d157bef5d3b4fb56736b993f89d4aeca83f3886c924cc4aa7d01f7564"
+    }
+  ],
+  "containerPath" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/Let's Go.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos18.1",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64v8",
+        "arm64",
+        "armv8"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Build/Products",
+      "pchPath" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
