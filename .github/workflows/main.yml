@@ -1,0 +1,35 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.0
+
+    - name: Install dependencies
+      run: |
+        gem install bundler
+        bundle install
+
+    - name: Set up Xcode
+      run: sudo xcode-select --switch /Applications/Xcode.app
+
+    - name: Build with Xcode
+      run: xcodebuild -project YourProject.xcodeproj -scheme YourScheme build
+
+    - name: Parse JSON
+      run: |
+        echo '{"key": "value"}' > test.json
+        ruby -rjson -e 'puts JSON.parse(File.read("test.json"))'
+
+    - name: Set Environment URL
+      run: echo "ENV_URL=https://letsgors.com/" >> $GITHUB_ENV

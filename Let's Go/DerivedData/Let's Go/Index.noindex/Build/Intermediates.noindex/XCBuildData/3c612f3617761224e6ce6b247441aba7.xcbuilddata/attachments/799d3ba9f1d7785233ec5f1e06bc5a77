@@ -1,0 +1,12 @@
+{
+  "" : {
+    "dependencies" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Index.noindex/Build/Intermediates.noindex/Let's Go.build/Debug-iphonesimulator/Let's GoTests.build/Objects-normal/arm64/Let's GoTests-master.d",
+    "diagnostics" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Index.noindex/Build/Intermediates.noindex/Let's Go.build/Debug-iphonesimulator/Let's GoTests.build/Objects-normal/arm64/Let's GoTests-master.dia",
+    "emit-module-dependencies" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Index.noindex/Build/Intermediates.noindex/Let's Go.build/Debug-iphonesimulator/Let's GoTests.build/Objects-normal/arm64/Let's GoTests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Index.noindex/Build/Intermediates.noindex/Let's Go.build/Debug-iphonesimulator/Let's GoTests.build/Objects-normal/arm64/Let's GoTests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Index.noindex/Build/Intermediates.noindex/Let's Go.build/Debug-iphonesimulator/Let's GoTests.build/Objects-normal/arm64/Let's GoTests-master.swiftdeps"
+  },
+  "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/Let's GoTests/Let_s_GoTests.swift" : {
+
+  }
+}

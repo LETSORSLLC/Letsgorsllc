@@ -38,5 +38,16 @@
     <string>AppIcon</string>
     <key>com.apple.developer.icloud-container-environment</key>
     <string>Production</string>
+
+    <!-- Add these keys here -->
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>processing</string>
+    </array>
+    <key>BGTaskSchedulerPermittedIdentifiers</key>
+    <array>
+        <string>com.letsgo.myapp.backgroundtask</string>
+    </array>
+
 </dict>
 </plist>

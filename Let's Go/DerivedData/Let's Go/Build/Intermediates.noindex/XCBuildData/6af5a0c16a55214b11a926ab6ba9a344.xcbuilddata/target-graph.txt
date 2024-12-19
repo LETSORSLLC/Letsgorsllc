@@ -1,0 +1,5 @@
+Target dependency graph (2 targets)
+Target 'Let's Go' in project 'Let's Go'
+➜ Explicit dependency on target 'Let's GoTests' in project 'Let's Go'
+Target 'Let's GoTests' in project 'Let's Go'
+➜ Explicit dependency on target 'Let's Go' in project 'Let's Go'

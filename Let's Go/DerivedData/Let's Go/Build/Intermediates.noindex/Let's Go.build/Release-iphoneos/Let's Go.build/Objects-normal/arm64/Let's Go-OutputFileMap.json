@@ -1,0 +1,40 @@
+{
+  "" : {
+    "const-values" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Build/Intermediates.noindex/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/Let's Go-master.swiftconstvalues",
+    "dependencies" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Build/Intermediates.noindex/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/Let's Go-master.d",
+    "diagnostics" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Build/Intermediates.noindex/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/Let's Go-master.dia",
+    "emit-module-dependencies" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Build/Intermediates.noindex/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/Let's Go-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Build/Intermediates.noindex/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/Let's Go-master-emit-module.dia",
+    "swift-dependencies" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Build/Intermediates.noindex/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/Let's Go-master.swiftdeps"
+  },
+  "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/Let's Go/ContentView.swift" : {
+    "index-unit-output-path" : "/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Build/Intermediates.noindex/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Build/Intermediates.noindex/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/Let's Go/Item.swift" : {
+    "index-unit-output-path" : "/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/Item.o",
+    "llvm-bc" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Build/Intermediates.noindex/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/Item.bc",
+    "object" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Build/Intermediates.noindex/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/Item.o"
+  },
+  "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/Let's Go/Let_s_GoApp.swift" : {
+    "index-unit-output-path" : "/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/Let_s_GoApp.o",
+    "llvm-bc" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Build/Intermediates.noindex/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/Let_s_GoApp.bc",
+    "object" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Build/Intermediates.noindex/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/Let_s_GoApp.o"
+  },
+  "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/Let's GoTests/Let_s_GoTests.swift" : {
+    "index-unit-output-path" : "/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/Let_s_GoTests.o",
+    "llvm-bc" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Build/Intermediates.noindex/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/Let_s_GoTests.bc",
+    "object" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Build/Intermediates.noindex/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/Let_s_GoTests.o"
+  },
+  "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/Let's GoUITests/Let_s_GoUITests.swift" : {
+    "index-unit-output-path" : "/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/Let_s_GoUITests.o",
+    "llvm-bc" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Build/Intermediates.noindex/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/Let_s_GoUITests.bc",
+    "object" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Build/Intermediates.noindex/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/Let_s_GoUITests.o"
+  },
+  "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/Let's GoUITests/Let_s_GoUITestsLaunchTests.swift" : {
+    "index-unit-output-path" : "/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/Let_s_GoUITestsLaunchTests.o",
+    "llvm-bc" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Build/Intermediates.noindex/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/Let_s_GoUITestsLaunchTests.bc",
+    "object" : "/Users/donbadsha/Documents/Letsgorsllc/Let's Go/DerivedData/Let's Go/Build/Intermediates.noindex/Let's Go.build/Release-iphoneos/Let's Go.build/Objects-normal/arm64/Let_s_GoUITestsLaunchTests.o"
+  }
+}

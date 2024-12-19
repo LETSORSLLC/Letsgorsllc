@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C08894B63A37D31CC198390F7B7332BD79FD631C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C08894B63A37D31CC198390F7B7332BD79FD631C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C18EE50F-ECC4-4EB3-B5A5-824338FB55F6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C08894B63A37D31CC198390F7B7332BD79FD631C" : "Letsgorsllc\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Let's Go",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Let's Go\/Let's Go.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LETSORSLLC\/Letsgorsllc.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C08894B63A37D31CC198390F7B7332BD79FD631C"
+    }
+  ]
+}
