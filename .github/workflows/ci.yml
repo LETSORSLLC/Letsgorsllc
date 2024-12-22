@@ -1,6 +1,12 @@
 name: Ruby on Rails CI
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build:
@@ -8,7 +14,7 @@ jobs:
 
     services:
       postgres:
-        image: postgres:11-alpine
+        image: postgres:12
         ports:
           - 5432:5432
         options: >-
@@ -18,24 +24,26 @@ jobs:
           --health-retries 5
         env:
           POSTGRES_USER: postgres
-          POSTGRES_PASSWORD: password
-          POSTGRES_DB: rails_test
+          POSTGRES_DB: mydb
+          POSTGRES_PASSWORD: postgres
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Install OpenCV
-      run: sudo apt-get update && sudo apt-get install -y libopencv-dev libopencv-contrib-dev
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.0.0'  # Specify the Ruby version here
-        bundler-cache: true
-      env:
-        RAILS_ENV: test
-        DATABASE_URL: postgres://postgres:password@localhost:5432/rails_test
+      - uses: actions/checkout@v2
 
-    - name: Install dependencies
-      run: bundle install
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2.0' # Update to the required Ruby version
 
-    - name: Run tests
-      run: bundle exec rspec
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install --jobs 4 --retry 3
+
+      - name: Set up database
+        run: |
+          cp config/database.yml.ci config/database.yml
+          bundle exec rails db:create db:schema:load
+
+      - name: Run tests
+        run: bundle exec rails test
