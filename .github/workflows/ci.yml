@@ -38,7 +38,25 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libopencv-dev
+          sudo apt-get install -y \
+            libopencv-dev \
+            libopencv-calib3d-dev \
+            libopencv-contrib-dev \
+            libopencv-core-dev \
+            libopencv-features2d-dev \
+            libopencv-flann-dev \
+            libopencv-highgui-dev \
+            libopencv-imgcodecs-dev \
+            libopencv-imgproc-dev \
+            libopencv-ml-dev \
+            libopencv-objdetect-dev \
+            libopencv-photo-dev \
+            libopencv-shape-dev \
+            libopencv-stitching-dev \
+            libopencv-superres-dev \
+            libopencv-video-dev \
+            libopencv-videoio-dev \
+            libopencv-videostab-dev
           gem install bundler
           bundle install --jobs 4 --retry 3
 
