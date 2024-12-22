@@ -33,7 +33,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2.0' # Update to the required Ruby version
+          ruby-version: '3.2.0' # Ensure the Ruby version is 3.2.0 or higher
 
       - name: Install dependencies
         run: |
