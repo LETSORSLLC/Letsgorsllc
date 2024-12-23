@@ -1,0 +1,7 @@
+[versions]
+androidGradlePlugin = "8.1.1" # Use the actual version you're using for Android Gradle Plugin
+kotlin = "1.9.0" # Add the appropriate Kotlin version here
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
